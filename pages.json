@@ -3,18 +3,28 @@
 		{
 			"path": "pages/tabbar/tabbar1/tabbar1",
 			"style": {
-				"enablePullDownRefresh":true
+				"enablePullDownRefresh":true,
+				"app-plus": {  
+				    "titleNView": false 
+				}  
 			}
 		},
 		{
 			"path": "pages/tabbar/tabbar2/tabbar2",
 			"style": {
-				"enablePullDownRefresh":true
+				"enablePullDownRefresh":true,
+				"app-plus": {
+				    "titleNView": false 
+				}  
 			}
 		},
 		{
 			"path": "pages/tabbar/tabbar3/tabbar3",
-			"style": {}
+			"style": {
+				"app-plus": {
+				    "titleNView": false 
+				}  
+			}
 		}
 	],
 	"globalStyle": {
@@ -26,7 +36,7 @@
 	"tabBar": {
 		"borderStyle": "black",
 		"color": "#707070",
-		"selectedColor": "#ED533A",
+		"selectedColor": "#266bff",
 		"list": [{
 				"pagePath": "pages/tabbar/tabbar1/tabbar1",
 				"iconPath": "static/img/tabbar/home.png",

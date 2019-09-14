@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar1/tabbar1",
+    "pages/tabbar/tabbar2/tabbar2",
+    "pages/tabbar/tabbar3/tabbar3"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微脉脉",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#707070",
+    "selectedColor": "#266bff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar1/tabbar1",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar2/tabbar2",
+        "iconPath": "static/img/tabbar/guanzhu.png",
+        "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+        "text": "超级人脉"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar3/tabbar3",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/meactive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
